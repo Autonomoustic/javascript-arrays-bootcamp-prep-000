@@ -24,10 +24,10 @@ function accessElementInArray(array, index) {
 
 function destructivelyRemoveElementFromEndOfArray(array) {
   array.shift()
-  
+  return array
 }
 
-}
+function destructivelyRemoveElementFromBeginningOfArray(array)
 
 function destructivelyRemoveElementFromBeginningOfArray(array) {
   array.shift()
